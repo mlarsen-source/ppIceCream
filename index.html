@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pair Program Ice Cream</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="main">
+    <header>
+  
+      <h1>Ice Cream Order Form</h1>
+    
+    </header>
+
+    <form action="thankyou.html" method="get">
+      <fieldset>
+        <legend>Personal Information:</legend>
+       <p></p>
+        <div>
+        <label>Name:
+          <input type="text" name="name" placeholder="Enter your name">
+        </label>
+        <p></p>
+      </div>
+      <div>
+        <label>Email:
+          <input type="text" name="email" placeholder="Enter your email">
+        </label>
+      </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Order Details</legend>
+        <p>Chose your flavor:</p>
+        <select name="size" id="size">
+          <option value="none">--- Select One --</option>
+          <option value="vanilla">Vanilla</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="strawberry">Strawberry</option>
+        </select>
+     
+        <p>Chose your cone:</p>
+          <label><input type="radio" name="conetype" value="waffle">Waffle Cone</label>
+          <label><input type="radio" name="conetype" value="sugar">Sugar Cone</label>
+          <label><input type="radio" name="conetype" value="cup">Cup</label>
+     
+        <p>Toppings:</p>
+          <label><input type="checkbox" name="toppings" value="sprinkles">Sprinkles</label>
+          <label><input type="checkbox" name="toppings" value="nuts">Nuts</label>
+          <label><input type="checkbox" name="toppings" value="cherry">Cheery</label>
+          <label><input type="checkbox" name="toppings" value="whipped">Whipped Cream</label>
+       
+      </fieldset>
+<div>
+  <p></p>
+  <button id="orderbutton" type="submit">Place Order</button>
+</div>
+    </form>
+  </div>
+  
+  
+</body>
+</html>
